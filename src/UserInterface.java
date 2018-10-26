@@ -29,7 +29,7 @@ import javax.swing.JScrollBar;
 import javax.swing.JTable;
 
 import com.sun.glass.events.MouseEvent;
-import com.toedter.calendar.JDateChooser;
+//import com.toedter.calendar.JDateChooser;
 
 public class UserInterface{
 
@@ -117,7 +117,7 @@ public class UserInterface{
 			}
 		});
 		
-		JDateChooser dateChooser = new JDateChooser();
+		//JDateChooser dateChooser = new JDateChooser();
 		
 		JButton btnSelectFrom = new JButton("Select");
 		btnSelectFrom.addActionListener(new ActionListener() {
@@ -156,7 +156,7 @@ public class UserInterface{
 						.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 							.addGroup(groupLayout.createSequentialGroup()
 								.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
-									.addComponent(dateChooser, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+									//.addComponent(dateChooser, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 									.addComponent(comboBoxFrom, Alignment.LEADING, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 									.addComponent(textFieldFrom, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 135, Short.MAX_VALUE))
 								.addGap(18)
@@ -188,7 +188,7 @@ public class UserInterface{
 						.addComponent(btnSelectFrom)
 						.addComponent(btnSelectTo))
 					.addGap(28)
-					.addComponent(dateChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+					//.addComponent(dateChooser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 					.addPreferredGap(ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
 					.addComponent(btnSubmit, GroupLayout.PREFERRED_SIZE, 33, GroupLayout.PREFERRED_SIZE)
 					.addContainerGap())

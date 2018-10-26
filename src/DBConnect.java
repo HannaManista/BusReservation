@@ -12,7 +12,7 @@ public class DBConnect {
 	private Statement st;
 	private ResultSet rs;
 	
-
+	
 	public DBConnect(){
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

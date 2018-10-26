@@ -11,7 +11,7 @@ public class MyApplication {
 		busChoice = new BusChoice();
 		initializeWindowConnections();
 	};
-	
+
 	public static void main(String[] args) {
 		MyApplication myApp = new MyApplication();	
 	}

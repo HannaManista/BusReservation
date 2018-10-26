@@ -7,9 +7,6 @@ public class BusChoice {
 	
 	public JFrame frame;
 
-	/**
-	 * Launch the application.
-	 */
 	public BusChoice() {
 		initialize();
 		EventQueue.invokeLater(new Runnable() {

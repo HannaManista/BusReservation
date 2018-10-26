@@ -8,7 +8,7 @@ public class JourneyInfo {
 	private String to_city;
 	private String departure_date;
 	private String price;
-	
+
 	private List<JourneyInfo> journeyInfoList = new ArrayList<JourneyInfo>();
 	private JourneyInfo[] journeyInfoArray = new JourneyInfo[journeyInfoList.size()];
 	
